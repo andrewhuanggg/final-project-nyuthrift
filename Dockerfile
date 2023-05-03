@@ -16,7 +16,7 @@ COPY front-end/ ./
 # Run the build script specified in package.json to generate an optimized production build
 RUN npm run build
 
-# Expose port 3000 for the application to be accessible
+# Expose port 3000 for the application to be accessible...
 EXPOSE 3000
 
 # Start the application using npm
